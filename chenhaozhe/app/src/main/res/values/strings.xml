@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">陈浩哲</string>
+
+    <string name="main_one">陈浩哲的app</string>
+    <string name="main_two">请输入姓名</string>
+    <string name="main_three">请输入密码</string>
+
+    <string name="head_name">我是谁？</string>
+    <string name="head_tag">点击设置签名</string>
+
+    <string name="tag_input">Please input</string>
+</resources>

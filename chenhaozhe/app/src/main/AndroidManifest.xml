@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chz1801308031.com">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/skala"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/skala"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:testOnly="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main.TagActivity"
+            android:label="签名"/>
+        <activity android:name=".main.WebActivity"
+            android:label="详情"/>
+        <activity android:name=".main.ListHeadActivity"
+            android:label="主页面"
+            android:launchMode="singleTask" />
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
